@@ -1,0 +1,26 @@
+# Copiar este contenido a tu archivo .env
+
+# Database Configuration
+DB_USER=root
+DB_PASSWORD=hachepassword
+DB_HOST=localhost
+DB_DATABASE=gastosdb
+DB_PORT=3306
+
+# Server Configuration
+PORT=3001
+
+# Clerk Configuration
+CLERK_SECRET_KEY=sk_test_91NuRXw1P0wjULPEA8SBU6Gb7lYlYOvYpWVnEZDlaX
+CLERK_PUBLISHABLE_KEY=pk_test_tu_clerk_publishable_key
+CLERK_JWT_KEY=-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA...
+-----END PUBLIC KEY-----
+CLERK_FRONTEND_URL=http://localhost:5173
+
+# Para obtener las claves de Clerk:
+# 1. Ve a https://dashboard.clerk.com
+# 2. Selecciona tu aplicación
+# 3. API Keys → Secret Keys (CLERK_SECRET_KEY)
+# 4. API Keys → Publishable Keys (CLERK_PUBLISHABLE_KEY)
+# 5. JWT Templates → Default → Signing Key (CLERK_JWT_KEY) 

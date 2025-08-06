@@ -5,15 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "check-env": "node src/check-env.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@clerk/backend": "^2.6.2",
+    "@clerk/clerk-sdk-node": "^4.13.23",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "helmet": "^8.1.0",
     "mysql2": "^3.14.2"
   },
   "devDependencies": {
